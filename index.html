@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./css/style.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <section class="mainWrapper">
+      <div class="textWrapper">
+        <h1>World Countries list</h1>
+        <h2>Total Number of Countries</h2>
+        <p>Countries containing with land are</p>
+      </div>
+      <div class="buttonWrapper">
+        <button class="btnStartsWith">Starts with ...</button>
+        <button class="btnContains">Contains ...</button>
+        <i class="fas fa-sort-alpha-down"></i>
+      </div>
+      <div class="searchBoxWrapper">
+        <input
+          type="text"
+          placeholder="Search country..."
+        />
+      </div>
+    </section>
+    <div class="resultWrapper"></div>
+
+    <script src="./js/Countries_Object.js"></script>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
